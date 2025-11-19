@@ -1,0 +1,22 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f9fb;
+}
+
+/* Performance Indicator Badges */
+.performance-A { background-color: #a7f3d0; color: #065f46; font-weight: 600; }
+.performance-B { background-color: #fde68a; color: #a16207; font-weight: 600; }
+.performance-C { background-color: #fecaca; color: #991b1b; font-weight: 600; }
+
+/* Modal Styles */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+    display: none;
+    z-index: 50;
+}
